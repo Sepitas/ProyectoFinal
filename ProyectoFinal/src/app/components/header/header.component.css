@@ -1,0 +1,13 @@
+div{
+    background-color: lightblue;
+}
+
+app-redes{
+    
+   float: right;
+   margin-top: 25px;
+
+}
+app-login {
+    float:right;
+}
