@@ -1,0 +1,42 @@
+div{
+    background-color: rgba(5, 11, 70, 0.863);
+    text-align: center;
+}
+.row {
+    padding: 20px;
+}
+
+#nombre{
+    font-weight: bold;
+    margin-top:10%;
+    
+}
+/* estilos foto */
+
+@media (min-width: 576px) {
+    #fotop {
+        position: right;
+        width: 70%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        left:1.5%;
+        
+}   
+
+
+}
+@media (max-width: 576px) {
+    #fotop {
+        
+        position: center;
+        width: 30%;
+        border-radius: 100%;
+        box-shadow: 3px 3px 3px gray;
+        
+        
+}   
+
+
+}
+
+

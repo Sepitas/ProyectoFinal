@@ -1,5 +1,5 @@
 div{
-    background-color: lightblue;
+    background-color: rgba(5, 11, 70, 0.863);
 }
 
 app-redes{
@@ -11,3 +11,4 @@ app-redes{
 app-login {
     float:right;
 }
+

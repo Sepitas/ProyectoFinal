@@ -7,18 +7,29 @@ import { HeaderComponent } from './components/header/header.component';
 import { LogoComponent } from './components/logo/logo.component';
 import { RedesComponent } from './components/redes/redes.component';
 import { LoginComponent } from './components/login/login.component';
-
+import { BannerComponent } from './components/banner/banner.component';
+import { AcercaComponent } from './components/acerca/acerca.component';
+import { ExperienciaComponent } from './components/experiencia/experiencia.component';
+import { EducacionComponent } from './components/educacion/educacion.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
+import { SkillsComponent } from './components/skills/skills.component';
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
     LogoComponent,
     RedesComponent,
-    LoginComponent
+    LoginComponent,
+    BannerComponent,
+    AcercaComponent,
+    ExperienciaComponent,
+    EducacionComponent,
+    SkillsComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
