@@ -1,3 +1,19 @@
 #logo{
     width: 150px;
 }
+i{
+    font-size: 50px;
+}
+button{
+    font-size: 25px;
+    
+
+}
+.redes{
+        margin-right: 1px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
